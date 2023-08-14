@@ -1,0 +1,15 @@
+{
+  "name": "grzechu_bot",
+  "version": "1.0.0",
+  "description": "podwstawiowy bot discord",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^12.5.3"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Grzechu",
+  "license": "MIT"
+}
+
