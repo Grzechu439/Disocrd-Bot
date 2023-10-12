@@ -15,9 +15,8 @@ client.on('ready', () => {
   
 });
 
-client.on('guildMemberAdd', member => {
-
-  const welcomeChannel = member.guild.channels.cache.find(channel => channel.name === '╭🛫・przyloty');
+client.on('guildMemberAdd', async (member) => {
+  const welcomeChannel = member.guild.channels.cache.get('1155231504885104710');
 
   if (!welcomeChannel) return;
 
