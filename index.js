@@ -102,21 +102,6 @@ client.on('message', (message) => {
 });
 
 
-
-
-client.on("message", (message) => {
-  if (message.author.bot) return;
-
-  if (message.content.includes("<@") || message.content.includes("<@")) {
-    message.react("🚫");
-    
-    message.delete();
-    
-    message.author.send("**Hope AntyPing:** Pingowanie Członków jest zabronione!");
-  }
-});
-
-
 client.once('ready', () => {
     console.log('Bot jest gotowy.');
 
